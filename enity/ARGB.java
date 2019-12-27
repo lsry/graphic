@@ -8,6 +8,7 @@ public class ARGB {
 
     public static final ARGB GRAY = new ARGB(255, 128, 128, 128);
     public static final ARGB WHITE = new ARGB(255, 255, 255, 255);
+    public static final ARGB BLACK = new ARGB(255,0,0,0);
 
     public ARGB(int a,int r,int g,int b) {
         alpha = a;

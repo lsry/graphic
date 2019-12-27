@@ -1,3 +1,5 @@
+package test;
+
 import java.io.IOException;
 
 import enity.ARGB;
@@ -10,7 +12,7 @@ import scene.Camera;
 import scene.Scene;
 import utils.ImageUtil;
 
-public class RayTrace {
+public class RayTraceTest {
     public static void main(String[] args) throws IOException {
         Camera camera = new Camera(new Point3(0.0,0.0,150.0), 256, 256,
                         new Vector3(0,0,1),new Vector3(0,1,0),new Vector3(1,0,0));
