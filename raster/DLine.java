@@ -1,8 +1,14 @@
 package raster;
 
 import enity.ARGB;
+import enity.dd.Line;
 
 public class DLine {
+    public static void draw(ARGB[][] colors,Line line,ARGB color) {
+        draw(colors, line.p1.x, line.p1.y, line.p2.x, line.p2.y, color);
+    }
+
+
     public static void draw(ARGB[][] colors,int x1,int y1,int x2,int y2,ARGB color) {
         double k = Double.MAX_VALUE;
         if (x2 != x1) {
